@@ -222,6 +222,7 @@ def factorial(num):
 def s(l):
     return list(map(lambda x: x**2, l))
 
+
 # More readable
 def exponentiate(numbers, exponent):
     results = []
