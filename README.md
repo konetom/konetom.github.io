@@ -229,7 +229,7 @@ def exponentiate(numbers, exponent):
     for element in numbers:
         results.append(element ** exponent)
     return results
-
+```
 <br>
 
 ## vitisSOM - An implementation of Python and Bash into an existing R project
