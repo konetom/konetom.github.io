@@ -147,15 +147,12 @@ _start:
 
 <br>
 
-### *Always follow "Python Enhancement Proposals (PEPs)", especially `PEP20: Zen of Python`*
+### *Try to follow "Python Enhancement Proposals (PEPs)", especially `PEP20: Zen of Python`*
 
 <br>
 
 ### Why to follow Zen of Python?
 *The Zen of Python is a collection of “guiding principles” for writing computer programs that influence the design of the Python programming language.*
-<br>
-
-**The most important principles are:**
 <br>
 
 #### Beautiful is better than ugly.
