@@ -234,4 +234,4 @@ def exponentiate(numbers, exponent):
 
 ## vitisSOM - An implementation of Python and Bash into an existing R project
 
-> To be continued...
+> <a href="https://github.com/konetom/vitisSOM">vitisSOM code</a>
