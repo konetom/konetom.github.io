@@ -164,6 +164,7 @@ _start:
 def greet(name):
     return f"Hello, {name}. how are you?"
 
+
 # Ugly
 def greet(name): return "Hello, " + name + ". how are you?"
 ```
@@ -175,6 +176,7 @@ def greet(name): return "Hello, " + name + ". how are you?"
 def calculate_rectangle_area(length, width):
     return length * width
 
+
 # Implicit
 def calculate_area(x, y):
     return x * y
@@ -184,29 +186,53 @@ def calculate_area(x, y):
 #### Simple is better than complex.
 ```
 # Simple
-def add_numbers(first, second):
-    return first + second
+def is_even(num):
+    return num % 2 == 0
+
 
 # Complex
-def add_numbers(first, second):
-    if isinstance(first, int) and isinstance(second, int):
-        return first + second
+def is_even(num):
+    if ((num / 2) * 2) == num:
+        return True
     else:
-        raise ValueError("Both arguments must be integers.")
+        return False
 ```
 <br>
 
 #### Complex is better than complicated.
+```
+# Complex
+def factorial(num):
+    return 1 if num == 0 else num * factorial(num - 1)
 
 
+# Complicated
+def factorial(num):
+    if num == 0:
+        return 1
+    else:
+        fact = 1
+        for i in range(1, num + 1):
+            fact *= i
+        return fact
+```
 <br>
 
 #### Readability counts.
+```
+# Less readable
+def s(l):
+    return list(map(lambda x: x**2, l))
 
-
+# More readable
+def exponentiate(numbers, exponent):
+	results = []
+	for element in numbers:
+		results.append(element ** exponent)
+	return results
 
 <br>
 
-## vitisSOM - An implementation of Python and Bash into an existing R project #
+## vitisSOM - An implementation of Python and Bash into an existing R project
 
 > To be continued...
