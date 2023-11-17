@@ -1,15 +1,3 @@
-# Lecture 1
-
-## GitHub CodeSpace Live share
-
-<a href src="https://prod.liveshare.vsengsaas.visualstudio.com/join?71BF9E85EE695EEF6EA86C2E53D5E6A06DED">
-
-## Online compilers:
-<a href src="https://www.programiz.com/python-programming/online-compiler">
-<br>
-
-# Lecture 2
-
 ## Working with Biological Data
 
 #### Read a FASTA file using BioPython:
@@ -96,6 +84,7 @@ record = handle.read()
 handle.close()
 print(record)
 ```
+<br>
 
 
 #### Fetch DNA sequence from NCBI database:
@@ -113,3 +102,10 @@ print(record.seq)
 
 ```
 <br>
+
+
+### Additional links:
+<a href src="https://prod.liveshare.vsengsaas.visualstudio.com/join?71BF9E85EE695EEF6EA86C2E53D5E6A06DED">See GitHub CodeSpace Live Share</a>
+<br>
+
+<a href src="https://www.programiz.com/python-programming/online-compiler">See online compilers</a>
