@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Group Summary of SOM dataset</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #fff;
+        font: normal normal normal 14px/180% sans-serif;
+      }
+
+      #wrapper {
+        width: 90%;
+        min-width: 400px;
+        max-width: 800px;
+        margin: 20px auto;
+      }
+
+      h1, h2 {
+        margin: 30px 0 0 0;
+        line-height: 210%;
+        border-bottom: 1px solid #eee;
+      }
+
+      dl {
+        line-height: 180%;
+      }
+
+      dl dt {
+        width: 50%;
+        float: left;
+        color: #111;
+      }
+
+      dl dt:after {
+        content: ':';
+      }
+
+      a {
+        color: #4183C4;
+        text-decoration: none;
+      }
+
+      table {
+        width: 100%;
+        margin: 24px 0;
+        border-collapse: collapse;
+      }
+
+      table th,
+      table td {
+        text-align: left;
+        padding: 4px 6px;
+      }
+
+      table thead tr,
+      table tbody tr:nth-child(2n) {
+        background-color: #f0f0f0;
+      }
+
+      table a {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Group Centered Analyses</h1>
+
+      <p>
+        The SOM portraits are aggregated in groupwise fashions. Further,
+        group stability scores are calculated using correlation silhouette method.
+        Finally, samples within each group are clustered and visualized as
+        hierarchical dendrograms.
+      </p>
+
+      <ul>
+        <li>
+          <a href="Expression Portraits Groups.pdf" target="_blank">
+            Expression Portraits (PDF)
+          </a>
+        </li>
+        <li>
+          <a href="Group Assignment.pdf" target="_blank">
+            Assignment Stability  Scores (PDF)
+          </a>
+        </li>
+        <li>
+          <a href="Group Clustering.pdf" target="_blank">
+            Groupwise Clustering Dendrograms (PDF)
+          </a>
+        </li>
+      </ul>
+
+      <h2>Group Summary Sheets</h2>
+
+      <p>
+        For each group a report sheet, gene lists and gene set lists are
+        created analogous to the sample summary sheets. Additionally, specific
+        gene sets are given which show highest significance in statistical
+        testing of the group compared to all other groups.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Group</th>
+            <th>Summary Sheet</th>
+            <th>Global Gene List</th>
+            <th>Gene Set List</th>
+            <th colspan="2">Specific Gene Set</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CabFra_acclim</td>
+            <td>
+              <a href="Reports/CabFra_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/CabFra_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/CabFra_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS CabFra_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS CabFra_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>CabFra_accfreeze</td>
+            <td>
+              <a href="Reports/CabFra_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/CabFra_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/CabFra_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS CabFra_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS CabFra_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>CabFra_freeze</td>
+            <td>
+              <a href="Reports/CabFra_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/CabFra_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/CabFra_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS CabFra_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS CabFra_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>CabFra_warm</td>
+            <td>
+              <a href="Reports/CabFra_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/CabFra_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/CabFra_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS CabFra_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS CabFra_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Chard_acclim</td>
+            <td>
+              <a href="Reports/Chard_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Chard_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Chard_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Chard_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Chard_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Chard_accfreeze</td>
+            <td>
+              <a href="Reports/Chard_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Chard_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Chard_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Chard_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Chard_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Chard_freeze</td>
+            <td>
+              <a href="Reports/Chard_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Chard_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Chard_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Chard_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Chard_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Chard_warm</td>
+            <td>
+              <a href="Reports/Chard_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Chard_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Chard_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Chard_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Chard_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Riesl_acclim</td>
+            <td>
+              <a href="Reports/Riesl_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Riesl_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Riesl_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Riesl_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Riesl_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Riesl_accfreeze</td>
+            <td>
+              <a href="Reports/Riesl_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Riesl_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Riesl_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Riesl_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Riesl_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Riesl_freeze</td>
+            <td>
+              <a href="Reports/Riesl_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Riesl_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Riesl_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Riesl_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Riesl_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Riesl_warm</td>
+            <td>
+              <a href="Reports/Riesl_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Riesl_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Riesl_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Riesl_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Riesl_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Sangio_acclim</td>
+            <td>
+              <a href="Reports/Sangio_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Sangio_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Sangio_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Sangio_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Sangio_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Sangio_accfreeze</td>
+            <td>
+              <a href="Reports/Sangio_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Sangio_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Sangio_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Sangio_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Sangio_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Sangio_freeze</td>
+            <td>
+              <a href="Reports/Sangio_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Sangio_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Sangio_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Sangio_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Sangio_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Sangio_warm</td>
+            <td>
+              <a href="Reports/Sangio_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Sangio_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Sangio_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Sangio_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Sangio_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Tocai_acclim</td>
+            <td>
+              <a href="Reports/Tocai_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Tocai_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Tocai_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Tocai_acclim.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Tocai_acclim.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Tocai_accfreeze</td>
+            <td>
+              <a href="Reports/Tocai_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Tocai_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Tocai_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Tocai_accfreeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Tocai_accfreeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Tocai_freeze</td>
+            <td>
+              <a href="Reports/Tocai_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Tocai_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Tocai_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Tocai_freeze.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Tocai_freeze.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Tocai_warm</td>
+            <td>
+              <a href="Reports/Tocai_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Lists - Global/Tocai_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="CSV Sheets/Gene Set Lists - Global/Tocai_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Tocai_warm.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="Geneset Analysis/Specific GS Tocai_warm.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

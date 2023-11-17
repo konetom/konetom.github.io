@@ -1,0 +1,46 @@
+# WARNING - This exported Revigo data is only useful for the specific purpose of constructing a TreeMap visualization.
+# Do not use this table as a general list of non-redundant GO categories, as it sets an extremely permissive 
+# threshold to detect redundancies (c=0.10) and fill the 'representative' column, while normally c>=0.4 is recommended.
+# To export a reduced-redundancy set of GO terms, go to the Scatterplot or Table tab, and export from there.
+TermID	Name	Frequency	Value	Uniqueness	Dispensability	Representative
+"GO:0000281"	"mitotic cytokinesis"	0.03807442849381995	-3.7878123955960423	0.9328443608995022	0.00515061	null
+"GO:0009250"	"glucan biosynthetic process"	0.18716769432277164	-3.1555228242543185	0.7717718720178293	0.02073998	null
+"GO:0006303"	"double-strand break repair via nonhomologous end joining"	0.04241572442650101	-1.8096683018297086	0.8667001916331563	0.22282447	"glucan biosynthetic process"
+"GO:0006468"	"protein phosphorylation"	4.356287697349047	-2.1163385648463824	0.8814416550032583	0.12378169	"glucan biosynthetic process"
+"GO:0006481"	"C-terminal protein methylation"	0.019638879303430095	-1.3565473235138126	0.9022751581706808	0.37676367	"glucan biosynthetic process"
+"GO:0006525"	"arginine metabolic process"	0.344202274074522	-1.585026652029182	0.8859343913442007	0.18468918	"glucan biosynthetic process"
+"GO:0009628"	"response to abiotic stimulus"	0.5503207556195101	-1.5346171485515816	0.943664650200274	0.25357534	"glucan biosynthetic process"
+"GO:0010304"	"PSII associated light-harvesting complex II catabolic process"	0.00030249458642724075	-1.5287082889410615	0.9109200361349274	0.16895241	"glucan biosynthetic process"
+"GO:0016117"	"carotenoid biosynthetic process"	0.05769668721557822	-1.585026652029182	0.8996439529510659	0.14386538	"glucan biosynthetic process"
+"GO:0031146"	"SCF-dependent proteasomal ubiquitin-dependent protein catabolic process"	0.04111931905609855	-1.3946949538588904	0.8526096187528073	0.43254001	"glucan biosynthetic process"
+"GO:0042221"	"response to chemical"	3.5432321107776397	-1.473660722610156	0.9357676098096588	0.38493425	"glucan biosynthetic process"
+"GO:0046395"	"carboxylic acid catabolic process"	1.0647011654318628	-1.393618634889395	0.8613600010730328	0.49839548	"glucan biosynthetic process"
+"GO:0051103"	"DNA ligation involved in DNA repair"	0.01021833361183888	-1.3565473235138126	0.8776662279487998	0.4283258	"glucan biosynthetic process"
+"GO:0010167"	"response to nitrate"	0.0032676063566810733	-3.4400933749638876	0.9145521986443563	-0	null
+"GO:0001101"	"response to acid chemical"	0.04666726921815421	-1.3946949538588904	0.928485240731621	0.47485273	"response to nitrate"
+"GO:0009648"	"photoperiodism"	0.006847679648792484	-1.747146969020107	0.9419531463906714	0.16509395	"response to nitrate"
+"GO:0010035"	"response to inorganic substance"	0.2740202059070677	-1.9871627752948278	0.9203665812320566	0.39705014	"response to nitrate"
+"GO:0010230"	"alternative respiration"	0.0012299230437151547	-2.354577730650908	0.9734613447282865	0.03520813	null
+"GO:0015706"	"nitrate transmembrane transport"	0.03974645901000569	-4.835647144215563	0.8011266507540916	0	null
+"GO:0006811"	"monoatomic ion transport"	4.427360628694111	-1.7594507517174003	0.8278708452133271	0.32839823	"nitrate transmembrane transport"
+"GO:0006829"	"zinc ion transport"	0.06794493787442639	-1.3767507096020994	0.8339686986842881	0.47313436	"nitrate transmembrane transport"
+"GO:0006850"	"mitochondrial pyruvate transmembrane transport"	0.016876538629572543	-2.2335871528876003	0.7890782505696897	0.20973132	"nitrate transmembrane transport"
+"GO:0015698"	"inorganic anion transport"	0.9291071360367685	-1.6882461389442456	0.8506535093341057	0.35456395	"nitrate transmembrane transport"
+"GO:0015851"	"nucleobase transport"	0.0855328373995531	-2.7986028756795487	0.8112629334403203	0.38911103	"nitrate transmembrane transport"
+"GO:0015858"	"nucleoside transport"	0.07069065796661211	-1.747146969020107	0.782309777297567	0.40475828	"nitrate transmembrane transport"
+"GO:0019755"	"one-carbon compound transport"	0.02285329979876132	-1.5287082889410615	0.8392400129499459	0.30843069	"nitrate transmembrane transport"
+"GO:0071918"	"urea transmembrane transport"	0.016244956526043138	-1.5287082889410615	0.8080796755032349	0.35006918	"nitrate transmembrane transport"
+"GO:0072530"	"purine-containing compound transmembrane transport"	0.07761146817476064	-2.5100415205751654	0.8010135237988727	0.40741589	"nitrate transmembrane transport"
+"GO:0098656"	"monoatomic anion transmembrane transport"	0.4992257634439813	-3.0530567293021744	0.8026447465297386	0.26383439	"nitrate transmembrane transport"
+"GO:0098660"	"inorganic ion transmembrane transport"	2.797686002840856	-1.6216020990518623	0.809853122721729	0.41295344	"nitrate transmembrane transport"
+"GO:1904823"	"purine nucleobase transmembrane transport"	0.042073340444061386	-2.978810700930062	0.7900647031469225	0.39060305	"nitrate transmembrane transport"
+"GO:1990573"	"potassium ion import across plasma membrane"	0.008293670254241381	-1.3565473235138126	0.8323632661149083	0.43034371	"nitrate transmembrane transport"
+"GO:0042537"	"benzene-containing compound metabolic process"	0.1937195276178056	-2.1804560644581312	0.9542430592559112	0.04942765	null
+"GO:0018958"	"phenol-containing compound metabolic process"	0.10836619250030823	-1.8794260687941502	0.9561135974128528	0.14749372	"benzene-containing compound metabolic process"
+"GO:0051301"	"cell division"	1.377729876522707	-1.869666231504994	0.9911437405112454	0.0068224	null
+"GO:0051351"	"positive regulation of ligase activity"	0.0018382363329040015	-1.5287082889410615	0.9346586351839584	-0	null
+"GO:0051340"	"regulation of ligase activity"	0.001864829263578924	-1.5287082889410615	0.9346143975018966	0.45414325	"positive regulation of ligase activity"
+"GO:0070085"	"glycosylation"	0.6805995229959543	-2.58838029403677	0.9803304342350195	0.0257544	null
+"GO:0071554"	"cell wall organization or biogenesis"	1.2119030090665606	-1.585026652029182	0.9912486063759414	0.00929947	null
+"GO:0071669"	"plant-type cell wall organization or biogenesis"	0.05152047906632752	-2.6675615400843946	0.9591349064101077	0.00525176	null
+"GO:0097502"	"mannosylation"	0.044609641207182096	-3.87942606879415	0.984100342767769	-0	null

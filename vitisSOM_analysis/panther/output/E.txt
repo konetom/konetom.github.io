@@ -1,0 +1,100 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20221013)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.6799722 Released 2022-07-01
+Analyzed List:	E.txt (Vitis vinifera)	There are duplicate IDs in the file. The unique set of IDs will be used.
+Reference List:	GO_ref.txt (Vitis vinifera)	There are duplicate IDs in the file. The unique set of IDs will be used.
+Test Type:	FISHER
+Correction:	NONE
+GO biological process complete	GO_ref.txt - REFLIST (17652)	E.txt (150)	E.txt (expected)	E.txt (over/under)	E.txt (fold Enrichment)	E.txt (raw P-value)
+CDP biosynthetic process (GO:0046705)	1	1	.01	+	 > 100	1.68E-02
+CDP metabolic process (GO:0046704)	1	1	.01	+	 > 100	1.68E-02
+ketone body biosynthetic process (GO:0046951)	2	1	.02	+	58.84	2.51E-02
+cellular ketone body metabolic process (GO:0046950)	2	1	.02	+	58.84	2.51E-02
+ketone body metabolic process (GO:1902224)	2	1	.02	+	58.84	2.51E-02
+guanine transport (GO:0015854)	3	1	.03	+	39.23	3.33E-02
+adenine transport (GO:0015853)	3	1	.03	+	39.23	3.33E-02
+fatty acid elongation, unsaturated fatty acid (GO:0019368)	3	1	.03	+	39.23	3.33E-02
+fatty acid elongation, saturated fatty acid (GO:0019367)	3	1	.03	+	39.23	3.33E-02
+fatty acid elongation, polyunsaturated fatty acid (GO:0034626)	3	1	.03	+	39.23	3.33E-02
+fatty acid elongation, monounsaturated fatty acid (GO:0034625)	3	1	.03	+	39.23	3.33E-02
+cellular manganese ion homeostasis (GO:0030026)	3	1	.03	+	39.23	3.33E-02
+manganese ion homeostasis (GO:0055071)	3	1	.03	+	39.23	3.33E-02
+pyrimidine ribonucleoside diphosphate biosynthetic process (GO:0009194)	4	1	.03	+	29.42	4.14E-02
+pyrimidine ribonucleoside diphosphate metabolic process (GO:0009193)	4	1	.03	+	29.42	4.14E-02
+ribonucleoside diphosphate biosynthetic process (GO:0009188)	4	1	.03	+	29.42	4.14E-02
+cellular biogenic amine catabolic process (GO:0042402)	4	1	.03	+	29.42	4.14E-02
+1-deoxy-D-xylulose 5-phosphate biosynthetic process (GO:0052865)	4	1	.03	+	29.42	4.14E-02
+1-deoxy-D-xylulose 5-phosphate metabolic process (GO:0052863)	4	1	.03	+	29.42	4.14E-02
+polyprenol biosynthetic process (GO:0016094)	4	1	.03	+	29.42	4.14E-02
+UDP metabolic process (GO:0046048)	4	1	.03	+	29.42	4.14E-02
+UDP biosynthetic process (GO:0006225)	4	1	.03	+	29.42	4.14E-02
+amine catabolic process (GO:0009310)	4	1	.03	+	29.42	4.14E-02
+regulation of root development (GO:2000280)	4	1	.03	+	29.42	4.14E-02
+entrainment of circadian clock by photoperiod (GO:0043153)	4	1	.03	+	29.42	4.14E-02
+polyamine catabolic process (GO:0006598)	4	1	.03	+	29.42	4.14E-02
+S-adenosylmethionine biosynthetic process (GO:0006556)	4	1	.03	+	29.42	4.14E-02
+leucine catabolic process (GO:0006552)	4	1	.03	+	29.42	4.14E-02
+pyrimidine nucleoside diphosphate biosynthetic process (GO:0009139)	5	1	.04	+	23.54	4.95E-02
+pyrimidine nucleoside diphosphate metabolic process (GO:0009138)	5	1	.04	+	23.54	4.95E-02
+nucleoside diphosphate biosynthetic process (GO:0009133)	5	1	.04	+	23.54	4.95E-02
+anthocyanin-containing compound metabolic process (GO:0046283)	5	1	.04	+	23.54	4.95E-02
+anthocyanin-containing compound biosynthetic process (GO:0009718)	5	1	.04	+	23.54	4.95E-02
+fatty acid derivative biosynthetic process (GO:1901570)	5	1	.04	+	23.54	4.95E-02
+cell migration (GO:0016477)	5	1	.04	+	23.54	4.95E-02
+flavonoid biosynthetic process (GO:0009813)	11	2	.09	+	21.40	5.18E-03
+flavonoid metabolic process (GO:0009812)	11	2	.09	+	21.40	5.18E-03
+phenylpropanoid biosynthetic process (GO:0009699)	39	4	.33	+	12.07	4.63E-04
+secondary metabolite biosynthetic process (GO:0044550)	62	6	.53	+	11.39	2.30E-05
+polyketide biosynthetic process (GO:0030639)	22	2	.19	+	10.70	1.72E-02
+polyketide metabolic process (GO:0030638)	22	2	.19	+	10.70	1.72E-02
+response to unfolded protein (GO:0006986)	25	2	.21	+	9.41	2.16E-02
+cellular response to unfolded protein (GO:0034620)	25	2	.21	+	9.41	2.16E-02
+iron-sulfur cluster assembly (GO:0016226)	27	2	.23	+	8.72	2.47E-02
+metallo-sulfur cluster assembly (GO:0031163)	27	2	.23	+	8.72	2.47E-02
+phenylpropanoid metabolic process (GO:0009698)	62	4	.53	+	7.59	2.33E-03
+protein refolding (GO:0042026)	31	2	.26	+	7.59	3.14E-02
+secondary metabolic process (GO:0019748)	100	6	.85	+	7.06	2.76E-04
+chaperone cofactor-dependent protein refolding (GO:0051085)	35	2	.30	+	6.72	3.88E-02
+'de novo' post-translational protein folding (GO:0051084)	35	2	.30	+	6.72	3.88E-02
+xenobiotic export from cell (GO:0046618)	36	2	.31	+	6.54	4.07E-02
+xenobiotic detoxification by transmembrane export across the plasma membrane (GO:1990961)	36	2	.31	+	6.54	4.07E-02
+alcohol biosynthetic process (GO:0046165)	37	2	.31	+	6.36	4.27E-02
+pyrimidine-containing compound biosynthetic process (GO:0072528)	40	2	.34	+	5.88	4.88E-02
+'de novo' protein folding (GO:0006458)	40	2	.34	+	5.88	4.88E-02
+alpha-amino acid catabolic process (GO:1901606)	72	3	.61	+	4.90	2.55E-02
+cellular amino acid catabolic process (GO:0009063)	75	3	.64	+	4.71	2.82E-02
+alcohol metabolic process (GO:0006066)	84	3	.71	+	4.20	3.72E-02
+carboxylic acid catabolic process (GO:0046395)	121	4	1.03	+	3.89	2.14E-02
+organic acid catabolic process (GO:0016054)	129	4	1.10	+	3.65	2.62E-02
+detoxification (GO:0098754)	140	4	1.19	+	3.36	3.36E-02
+response to toxic substance (GO:0009636)	145	4	1.23	+	3.25	3.74E-02
+metal ion transport (GO:0030001)	159	4	1.35	+	2.96	4.92E-02
+inorganic ion transmembrane transport (GO:0098660)	269	6	2.29	+	2.62	2.92E-02
+inorganic cation transmembrane transport (GO:0098662)	230	5	1.95	+	2.56	4.89E-02
+small molecule biosynthetic process (GO:0044283)	380	8	3.23	+	2.48	1.72E-02
+transmembrane transport (GO:0055085)	910	15	7.73	+	1.94	1.44E-02
+nitrogen compound metabolic process (GO:0006807)	4963	24	42.17	-	.57	6.84E-04
+primary metabolic process (GO:0044238)	5802	28	49.30	-	.57	1.53E-04
+protein modification process (GO:0036211)	1903	8	16.17	-	.49	3.28E-02
+protein metabolic process (GO:0019538)	2857	12	24.28	-	.49	5.02E-03
+macromolecule modification (GO:0043412)	2145	9	18.23	-	.49	2.26E-02
+biological regulation (GO:0065007)	2966	12	25.20	-	.48	2.81E-03
+regulation of biological process (GO:0050789)	2577	10	21.90	-	.46	4.85E-03
+macromolecule metabolic process (GO:0043170)	4449	16	37.81	-	.42	1.62E-05
+heterocycle metabolic process (GO:0046483)	1949	7	16.56	-	.42	1.19E-02
+gene expression (GO:0010467)	1433	5	12.18	-	.41	3.33E-02
+cellular nitrogen compound metabolic process (GO:0034641)	2388	8	20.29	-	.39	1.69E-03
+regulation of cellular process (GO:0050794)	2267	7	19.26	-	.36	1.29E-03
+nucleobase-containing compound metabolic process (GO:0006139)	1783	5	15.15	-	.33	3.73E-03
+RNA metabolic process (GO:0016070)	1145	3	9.73	-	.31	1.89E-02
+nucleic acid metabolic process (GO:0090304)	1481	3	12.58	-	.24	2.53E-03
+cellular macromolecule metabolic process (GO:0044260)	1710	3	14.53	-	.21	4.01E-04
+RNA processing (GO:0006396)	633	1	5.38	-	.19	4.65E-02
+signal transduction (GO:0007165)	680	1	5.78	-	.17	4.90E-02
+signaling (GO:0023052)	683	1	5.80	-	.17	3.23E-02
+cell communication (GO:0007154)	737	1	6.26	-	.16	2.24E-02
+protein phosphorylation (GO:0006468)	901	1	7.66	-	.13	7.53E-03

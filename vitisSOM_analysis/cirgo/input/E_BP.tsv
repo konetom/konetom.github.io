@@ -1,0 +1,27 @@
+TermID,Name,Frequency,Value,Uniqueness,Dispensability,Representative
+GO:0006986,response to unfolded protein,0.0580257747326803,-1.665546248849069,0.9216457892612552,-0.0,response to unfolded protein
+GO:0043153,entrainment of circadian clock by photoperiod,0.0039357537398884,-1.3829996588791011,0.9663970855417564,0.18689105,response to unfolded protein
+GO:0009812,flavonoid metabolic process,0.0122194516451267,-2.285670240254767,0.9677927492672268,0.01949882,flavonoid metabolic process
+GO:0016226,iron-sulfur cluster assembly,0.3090464197222747,-1.6073030467403342,0.915538151414308,0.02552526,iron-sulfur cluster assembly
+GO:0016477,cell migration,0.1874568924438614,-1.3053948010664314,0.9926817543277848,0.00820679,cell migration
+GO:0019748,secondary metabolic process,0.3725270693596486,-3.5590909179347823,0.9714144226417468,0.0253084,secondary metabolic process
+GO:0030026,intracellular manganese ion homeostasis,0.0318982203445692,-1.47755576649368,0.97886472641366,-0.0,intracellular manganese ion homeostasis
+GO:0042026,protein refolding,0.0928026798228099,-1.5030703519267852,0.9412075905637052,0.00766033,protein refolding
+GO:0044550,secondary metabolite biosynthetic process,0.2803526475240336,-4.638272163982407,0.8187917621562429,0.0,secondary metabolite biosynthetic process
+GO:0006066,alcohol metabolic process,0.7564226165828264,-1.4294570601181025,0.7821987745927795,0.34145392,secondary metabolite biosynthetic process
+GO:0009813,flavonoid biosynthetic process,0.0114549048882227,-2.285670240254767,0.8625402439115231,0.12151417,secondary metabolite biosynthetic process
+GO:0019368,"fatty acid elongation, unsaturated fatty acid",0.0079047486431206,-1.47755576649368,0.7295701502495994,0.32096838,secondary metabolite biosynthetic process
+GO:0042402,cellular biogenic amine catabolic process,0.0176710024334858,-1.3829996588791011,0.8512006180339909,0.40967349,secondary metabolite biosynthetic process
+GO:0044283,small molecule biosynthetic process,5.99490087202541,-1.764471553092451,0.7450794302070326,0.43753342,secondary metabolite biosynthetic process
+GO:0046395,carboxylic acid catabolic process,1.0647011654318628,-1.6695862266508092,0.7020210205714031,0.19642901,secondary metabolite biosynthetic process
+GO:0046705,CDP biosynthetic process,0.0007180091282229,-1.7746907182741372,0.6698967626158484,0.10252228,secondary metabolite biosynthetic process
+GO:0046950,cellular ketone body metabolic process,0.012249368692136,-1.6003262785189618,0.8499473237179878,0.23755244,secondary metabolite biosynthetic process
+GO:0052863,1-deoxy-D-xylulose 5-phosphate metabolic process,0.0317918486218695,-1.3829996588791011,0.8714523377208991,0.32023399,secondary metabolite biosynthetic process
+GO:0052865,1-deoxy-D-xylulose 5-phosphate biosynthetic process,0.0317918486218695,-1.3829996588791011,0.8257251818192286,0.29505864,secondary metabolite biosynthetic process
+GO:0098660,inorganic ion transmembrane transport,2.797686002840856,-1.5346171485515816,0.9229806419351746,-0.0,inorganic ion transmembrane transport
+GO:0015854,guanine transport,0.0004254868907987,-1.47755576649368,0.9515744552670946,0.1733715,inorganic ion transmembrane transport
+GO:0030001,metal ion transport,2.0723106328210017,-1.3080348972326397,0.938999850929251,0.37089063,inorganic ion transmembrane transport
+GO:0055085,transmembrane transport,13.500439763970451,-1.8416375079047504,0.918725736383336,0.49548147,inorganic ion transmembrane transport
+GO:0098662,inorganic cation transmembrane transport,2.2953322459262373,-1.3106911408763795,0.9243538930277354,0.47127911,inorganic ion transmembrane transport
+GO:1902224,ketone body metabolic process,0.0123623886475044,-1.6003262785189618,0.8692264913011947,0.04190108,ketone body metabolic process
+GO:2000280,regulation of root development,0.0030748076092878,-1.3829996588791011,0.9965332747691096,-0.0,regulation of root development

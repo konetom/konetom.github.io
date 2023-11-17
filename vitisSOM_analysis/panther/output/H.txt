@@ -1,0 +1,39 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20221013)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.6799722 Released 2022-07-01
+Analyzed List:	H.txt (Vitis vinifera)	There are duplicate IDs in the file. The unique set of IDs will be used.
+Reference List:	GO_ref.txt (Vitis vinifera)	There are duplicate IDs in the file. The unique set of IDs will be used.
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	GO_ref.txt - REFLIST (17652)	H.txt (142)	H.txt (expected)	H.txt (over/under)	H.txt (fold Enrichment)	H.txt (raw P-value)	H.txt (FDR)
+trihydroxystilbene synthase activity (GO:0050350)	21	10	.17	+	59.20	2.92E-14	7.10E-11
+polysaccharide binding (GO:0030247)	61	9	.49	+	18.34	4.38E-09	1.52E-06
+carbohydrate binding (GO:0030246)	147	11	1.18	+	9.30	5.59E-08	1.13E-05
+acyltransferase activity, transferring groups other than amino-acyl groups (GO:0016747)	267	12	2.15	+	5.59	2.48E-06	2.74E-04
+acyltransferase activity (GO:0016746)	288	12	2.32	+	5.18	5.23E-06	5.53E-04
+protein kinase activity (GO:0004672)	917	34	7.38	+	4.61	8.46E-14	1.03E-10
+phosphotransferase activity, alcohol group as acceptor (GO:0016773)	1043	36	8.39	+	4.29	1.07E-13	8.66E-11
+kinase activity (GO:0016301)	1110	36	8.93	+	4.03	6.41E-13	3.90E-10
+transferase activity, transferring phosphorus-containing groups (GO:0016772)	1249	36	10.05	+	3.58	1.78E-11	8.64E-09
+protein serine/threonine kinase activity (GO:0004674)	562	14	4.52	+	3.10	2.12E-04	2.06E-02
+ATP binding (GO:0005524)	1774	37	14.27	+	2.59	5.48E-08	1.21E-05
+adenyl ribonucleotide binding (GO:0032559)	1985	41	15.97	+	2.57	1.06E-08	3.21E-06
+adenyl nucleotide binding (GO:0030554)	1994	41	16.04	+	2.56	1.20E-08	3.25E-06
+transferase activity (GO:0016740)	2814	56	22.64	+	2.47	3.27E-11	1.32E-08
+catalytic activity, acting on a protein (GO:0140096)	2035	39	16.37	+	2.38	2.18E-07	3.53E-05
+purine ribonucleotide binding (GO:0032555)	2182	41	17.55	+	2.34	1.50E-07	2.61E-05
+anion binding (GO:0043168)	2502	47	20.13	+	2.34	1.82E-08	4.42E-06
+purine ribonucleoside triphosphate binding (GO:0035639)	1971	37	15.86	+	2.33	7.81E-07	9.04E-05
+purine nucleotide binding (GO:0017076)	2194	41	17.65	+	2.32	2.73E-07	4.14E-05
+ribonucleotide binding (GO:0032553)	2211	41	17.79	+	2.31	2.97E-07	4.25E-05
+carbohydrate derivative binding (GO:0097367)	2239	41	18.01	+	2.28	3.60E-07	4.86E-05
+small molecule binding (GO:0036094)	2587	46	20.81	+	2.21	1.34E-07	2.50E-05
+nucleotide binding (GO:0000166)	2439	43	19.62	+	2.19	5.20E-07	6.65E-05
+nucleoside phosphate binding (GO:1901265)	2439	43	19.62	+	2.19	5.20E-07	6.32E-05
+ion binding (GO:0043167)	4295	57	34.55	+	1.65	3.27E-05	3.31E-03
+catalytic activity (GO:0003824)	6495	74	52.25	+	1.42	2.27E-04	2.12E-02
+RNA binding (GO:0003723)	1054	0	8.48	-	 < 0.01	2.60E-04	2.34E-02

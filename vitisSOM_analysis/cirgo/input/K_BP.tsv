@@ -1,0 +1,28 @@
+TermID,Name,Frequency,Value,Uniqueness,Dispensability,Representative
+GO:0000373,Group II intron splicing,0.0107501922253373,-1.7721132953863266,0.8930330742321039,0.02659366,Group II intron splicing
+GO:0000463,"maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",0.0445032694844824,-1.6716203965612624,0.854151237479038,0.36499138,Group II intron splicing
+GO:0006398,mRNA 3'-end processing by stem-loop binding and cleavage,0.0017651057735479,-1.4634415574284698,0.901506339701329,0.30633618,Group II intron splicing
+GO:0010044,response to aluminum ion,0.0040919872076036,-2.958607314841775,0.8665598654493338,0.0,response to aluminum ion
+GO:0000729,DNA double-strand break processing,0.0033340886833683,-1.4634415574284698,0.8143694141205438,0.38696391,response to aluminum ion
+GO:0006952,defense response,1.037047841646278,-1.6946486305533763,0.8768864355672813,0.22411178,response to aluminum ion
+GO:0051707,response to other organism,0.8470214072759521,-1.400116927926312,0.8643206051150872,0.35206905,response to aluminum ion
+GO:1902170,cellular response to reactive nitrogen species,0.0015955758404953,-1.586700235918748,0.8647157179764435,0.30466623,response to aluminum ion
+GO:0010135,ureide metabolic process,0.0004587280541424,-1.586700235918748,0.9296131537234836,0.03306099,ureide metabolic process
+GO:0000255,allantoin metabolic process,0.0332345151109841,-1.4634415574284698,0.8699668529201543,0.25206857,ureide metabolic process
+GO:0015768,maltose transport,0.001429370023777,-1.7619538968712043,0.9698722029991892,-0.0,maltose transport
+GO:0006906,vesicle fusion,0.0307912896052256,-1.3251388592621884,0.8755475100742608,0.48486896,maltose transport
+GO:0048278,vesicle docking,0.0172920531713682,-1.5272435506827875,0.9114520022217512,0.13947689,maltose transport
+GO:0055085,transmembrane transport,13.500439763970451,-1.7594507517174005,0.945697705487909,0.25918161,maltose transport
+GO:0015979,photosynthesis,0.2284565433119228,-1.6695862266508092,0.9643808134214402,0.04068454,photosynthesis
+GO:0022406,membrane docking,0.046647324520148,-1.3251388592621884,0.9949898270520916,-0.0,membrane docking
+GO:0044419,biological process involved in interspecies interaction between organisms,1.030878281729696,-1.3757179041643317,1.0,-0.0,biological process involved in interspecies interaction between organisms
+GO:0046348,amino sugar catabolic process,0.0922442282786366,-1.9318141382538383,0.698277410843153,-0.0,amino sugar catabolic process
+GO:0006022,aminoglycan metabolic process,1.0070111264489532,-1.7033348097384688,0.8090919832179739,0.43285619,amino sugar catabolic process
+GO:0006040,amino sugar metabolic process,0.2702971956125786,-1.430626090384954,0.8533152417710499,0.47712696,amino sugar catabolic process
+GO:0009200,deoxyribonucleoside triphosphate metabolic process,0.0082238638112197,-1.586700235918748,0.8982505757705611,0.45358778,amino sugar catabolic process
+GO:0009204,deoxyribonucleoside triphosphate catabolic process,0.0075058546829968,-1.586700235918748,0.794076109457735,0.41551398,amino sugar catabolic process
+GO:0010136,ureide catabolic process,0.0004587280541424,-1.586700235918748,0.831835908335643,0.27262004,amino sugar catabolic process
+GO:0043605,amide catabolic process,0.1911699303893474,-1.368556230986828,0.8158539790161061,0.39675491,amino sugar catabolic process
+GO:0090069,regulation of ribosome biogenesis,0.0283148229361234,-1.4634415574284698,0.9853010383131536,-0.0,regulation of ribosome biogenesis
+GO:0045739,positive regulation of DNA repair,0.0251602365348108,-1.368556230986828,0.952482625729394,0.15399329,regulation of ribosome biogenesis
+GO:1902182,shoot apical meristem development,0.0001961228637275,-1.7619538968712043,1.0,-0.0,shoot apical meristem development
