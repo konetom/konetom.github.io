@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>konetom's github page</title>
   </head>
-  <body style="font-size: 11pt; max-width: max-content; margin: auto; width: 80%; background-image: url('images/wallpaper.jpg'); background-size: 100% 100%;">
+  <body style="font-size: 11pt; max-width: max-content; margin: auto; width: 70%; background-image: url('images/wallpaper.jpg'); background-size: 100% 100%;">
     <h1 id="bioinformatics">Bioinformatics</h1>
     <h3 id="what-is-bioinformatics-">What is bioinformatics?</h3>
     <blockquote>
@@ -100,29 +100,26 @@
     </blockquote>
     <br>
     <div style="width: 100%; color: rgb(250, 250, 250); background-color: rgba(20, 20, 20, 0.8); padding: 20px;">
-        <pre><code>
-            <span># Here is a simple “Hello, World!” program written <span class="hljs-keyword">in</span> Assembly language \
-        for machine with an x86 processor <span class="hljs-keyword">and</span> Linux operating system:</span>
+        <pre><code><span style="color: grey;"># Here is a simple “Hello, World!” program written in Assembly<br>for machine with an x86 processor and Linux operating system</span>
 
-        <span class="hljs-meta">section</span> .data
-            hello <span class="hljs-built_in">db</span> <span class="hljs-string">'Hello, World!'</span>,<span class="hljs-number">0</span>
+<span class="hljs-meta">section</span> .data
+    hello <span class="hljs-built_in">db</span> <span class="hljs-string">'Hello, World!'</span>,<span class="hljs-number">0</span>
 
-        <span class="hljs-meta">section</span> .text
-            <span class="hljs-meta">global</span> _start
-        <span class="hljs-symbol">
-        _start:</span>
-            <span class="hljs-comment">; write hello to stdout</span>
-            <span class="hljs-keyword">mov</span> <span class="hljs-built_in">eax</span>, <span class="hljs-number">4</span>
-            <span class="hljs-keyword">mov</span> <span class="hljs-built_in">ebx</span>, <span class="hljs-number">1</span>
-            <span class="hljs-keyword">mov</span> <span class="hljs-built_in">ecx</span>, hello
-            <span class="hljs-keyword">mov</span> <span class="hljs-built_in">edx</span>, <span class="hljs-number">13</span>
-            <span class="hljs-keyword">int</span> <span class="hljs-number">0x80</span>
+<span class="hljs-meta">section</span> .text
+    <span class="hljs-meta">global</span> _start
 
-            <span class="hljs-comment">; exit</span>
-            <span class="hljs-keyword">mov</span> <span class="hljs-built_in">eax</span>, <span class="hljs-number">1</span>
-            <span class="hljs-keyword">xor</span> <span class="hljs-built_in">ebx</span>, <span class="hljs-built_in">ebx</span>
-            <span class="hljs-keyword">int</span> <span class="hljs-number">0x80</span>
-        </code></pre>
+<span class="hljs-symbol">_start:</span>
+    <span class="hljs-comment">; write hello to stdout</span>
+    <span class="hljs-keyword">mov</span> <span class="hljs-built_in">eax</span>, <span class="hljs-number">4</span>
+    <span class="hljs-keyword">mov</span> <span class="hljs-built_in">ebx</span>, <span class="hljs-number">1</span>
+    <span class="hljs-keyword">mov</span> <span class="hljs-built_in">ecx</span>, hello
+    <span class="hljs-keyword">mov</span> <span class="hljs-built_in">edx</span>, <span class="hljs-number">13</span>
+    <span class="hljs-keyword">int</span> <span class="hljs-number">0x80</span>
+
+    <span class="hljs-comment">; exit</span>
+    <span class="hljs-keyword">mov</span> <span class="hljs-built_in">eax</span>, <span class="hljs-number">1</span>
+    <span class="hljs-keyword">xor</span> <span class="hljs-built_in">ebx</span>, <span class="hljs-built_in">ebx</span>
+    <span class="hljs-keyword">int</span> <span class="hljs-number">0x80</span></code></pre>
     </div>
     <br><hr style="border-width: 2px"><br>
     <h1 id="r">R</h1>
@@ -165,77 +162,81 @@
     <p>(image from wikimedia.org)</p>
     </blockquote>
     <p><br></p>
-    <h4 id="-try-to-follow-python-enhancement-proposals-peps-especially-pep20-zen-of-python-"><em>Try to follow &quot;Python Enhancement Proposals (PEPs)&quot;, especially PEP20: Zen of Python</em></h4>
+    <h4 style="text-align: center; background-color: rgba(200, 150, 50, 0.5); padding: 30px; width: 70%; margin: auto;" id="-try-to-follow-python-enhancement-proposals-peps-especially-pep20-zen-of-python-"><em>Try to follow &quot;Python Enhancement Proposals (PEPs)&quot;<br><br>... especially the Zen of Python (PEP20)</em></h4>
     <p><br></p>
     <h3 id="why-to-follow-zen-of-python-">Why to follow Zen of Python?</h3>
     <p><em>The Zen of Python is a collection of “guiding principles” for writing computer programs that influence the design of the Python programming language.</em>
-    <br></p>
-    <div style="color: rgb(250, 250, 250); background-color: rgba(20, 20, 20, 0.8); padding: 20px;">
-        <h4 id="beautiful-is-better-than-ugly-">Beautiful is better than ugly.</h4>
-        <pre><code><span class="hljs-comment"># Beautiful</span>
-        <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">greet</span><span class="hljs-params">(name)</span></span>:
-            <span class="hljs-keyword">return</span> f<span class="hljs-string">"Hello, {name}."</span>
+    </p>
+    <br><br>
+    <div style="width: 90%; margin: auto; color: rgb(250, 250, 250); background-color: rgba(20, 20, 20, 0.8); padding-left: 30px; padding-top: 10px;">
+        <h4 id="beautiful-is-better-than-ugly-">Beautiful is better than ugly</h4>
+        <pre><code><span class="hljs-comment" style="color: grey"># Beautiful</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">greet</span><span class="hljs-params">(name)</span></span>:
+    <span class="hljs-keyword">return</span> f<span class="hljs-string">"Hello, {name}."</span>
 
+<span class="hljs-comment" style="color: grey"># Ugly</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">greet</span><span class="hljs-params">(name)</span></span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"Hello, "</span> + name + <span class="hljs-string">"."</span>
+</code></pre><br>
 
-        <span class="hljs-comment"># Ugly</span>
-        <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">greet</span><span class="hljs-params">(name)</span></span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"Hello, "</span> + name + <span class="hljs-string">"."</span>
-        </code></pre><p><br></p>
-        <h4 id="explicit-is-better-than-implicit-">Explicit is better than implicit.</h4>
-        <pre><code># Explicit
-        def calculate_rectangle_area(length, width):
-            <span class="hljs-keyword">return</span> length * width
+        <hr>
+        <h4 id="explicit-is-better-than-implicit-">Explicit is better than implicit</h4>
+        <pre><code><span style="color: grey"># Explicit</span>
+def calculate_rectangle_area(length, width):
+    <span class="hljs-keyword">return</span> length * width
 
+# <span class="hljs-keyword" style="color: grey">Implicit</span>
+def calculate_area(x, y):
+    <span class="hljs-keyword">return</span> x * y
+</code></pre><br>
 
-        # <span class="hljs-keyword">Implicit</span>
-        def calculate_area(x, y):
-            <span class="hljs-keyword">return</span> x * y
-        </code></pre><p><br></p>
-        <h4 id="simple-is-better-than-complex-">Simple is better than complex.</h4>
-        <pre><code><span class="hljs-comment"># Simple</span>
-        <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">is_even</span><span class="hljs-params">(num)</span>:</span>
-            <span class="hljs-keyword">return</span> num % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>
+        <hr>
+        <h4 id="simple-is-better-than-complex-">Simple is better than complex</h4>
+        <pre><code><span class="hljs-comment" style="color: grey"># Simple</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">is_even</span><span class="hljs-params">(num)</span>:</span>
+    <span class="hljs-keyword">return</span> num % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>
 
+<span class="hljs-comment" style="color: grey"># Complex</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">is_even</span><span class="hljs-params">(num)</span>:</span>
+    <span class="hljs-keyword">if</span> ((num / <span class="hljs-number">2</span>) * <span class="hljs-number">2</span>) == num:
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+    <span class="hljs-keyword">else</span>:
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+</code></pre><br>
 
-        <span class="hljs-comment"># Complex</span>
-        <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">is_even</span><span class="hljs-params">(num)</span>:</span>
-            <span class="hljs-keyword">if</span> ((num / <span class="hljs-number">2</span>) * <span class="hljs-number">2</span>) == num:
-                <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
-            <span class="hljs-keyword">else</span>:
-                <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
-        </code></pre><p><br></p>
-        <h4 id="complex-is-better-than-complicated-">Complex is better than complicated.</h4>
-        <pre><code># Complex
-        def <span class="hljs-built_in">factorial</span>(<span class="hljs-built_in">num</span>):
-            <span class="hljs-built_in">return</span> <span class="hljs-number">1</span> <span class="hljs-keyword">if</span> <span class="hljs-built_in">num</span> == <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-built_in">num</span> * <span class="hljs-built_in">factorial</span>(<span class="hljs-built_in">num</span> - <span class="hljs-number">1</span>)
+        <hr>
+        <h4 id="complex-is-better-than-complicated-">Complex is better than complicated</h4>
+        <pre><code><span style="color: grey"># Complex</span>
+def <span class="hljs-built_in">factorial</span>(<span class="hljs-built_in">num</span>):
+    <span class="hljs-built_in">return</span> <span class="hljs-number">1</span> <span class="hljs-keyword">if</span> <span class="hljs-built_in">num</span> == <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-built_in">num</span> * <span class="hljs-built_in">factorial</span>(<span class="hljs-built_in">num</span> - <span class="hljs-number">1</span>)
 
+<span style="color: grey"># Complicated</span>
+def <span class="hljs-built_in">factorial</span>(<span class="hljs-built_in">num</span>):
+    <span class="hljs-keyword">if</span> <span class="hljs-built_in">num</span> == <span class="hljs-number">0</span>:
+        <span class="hljs-built_in">return</span> <span class="hljs-number">1</span>
+    <span class="hljs-keyword">else</span>:
+        fact = <span class="hljs-number">1</span>
+        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">1</span>, <span class="hljs-built_in">num</span> + <span class="hljs-number">1</span>):
+            fact *= i
+        <span class="hljs-built_in">return</span> fact
+</code></pre><br>
 
-        # Complicated
-        def <span class="hljs-built_in">factorial</span>(<span class="hljs-built_in">num</span>):
-            <span class="hljs-keyword">if</span> <span class="hljs-built_in">num</span> == <span class="hljs-number">0</span>:
-                <span class="hljs-built_in">return</span> <span class="hljs-number">1</span>
-            <span class="hljs-keyword">else</span>:
-                fact = <span class="hljs-number">1</span>
-                <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">1</span>, <span class="hljs-built_in">num</span> + <span class="hljs-number">1</span>):
-                    fact *= i
-                <span class="hljs-built_in">return</span> fact
-        </code></pre><p><br></p>
-        <h4 id="readability-counts-">Readability counts.</h4>
-        <pre><code><span class="hljs-comment"># Less readable</span>
-        <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">s</span><span class="hljs-params">(l)</span>:</span>
-            <span class="hljs-keyword">return</span> list(map(<span class="hljs-keyword">lambda</span> x: x**<span class="hljs-number">2</span>, l))
+        <hr>
+        <h4 id="readability-counts-">Readability counts</h4>
+        <pre><code><span class="hljs-comment" style="color: grey"># Less readable</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">s</span><span class="hljs-params">(l)</span>:</span>
+    <span class="hljs-keyword">return</span> list(map(<span class="hljs-keyword">lambda</span> x: x**<span class="hljs-number">2</span>, l))
 
-
-        <span class="hljs-comment"># More readable</span>
-        <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exponentiate</span><span class="hljs-params">(numbers, exponent)</span>:</span>
-            results = []
-            <span class="hljs-keyword">for</span> element <span class="hljs-keyword">in</span> numbers:
-                results.append(element ** exponent)
-            <span class="hljs-keyword">return</span> results
-        </code></pre>
+<span class="hljs-comment" style="color: grey"># More readable</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exponentiate</span><span class="hljs-params">(numbers, exponent)</span>:</span>
+    results = []
+    <span class="hljs-keyword">for</span> element <span class="hljs-keyword">in</span> numbers:
+        results.append(element ** exponent)
+    <span class="hljs-keyword">return</span> results
+</code></pre><br>
     </div>
     <br>
     <footer style="display: flex; justify-content: center;">
-        <div style="height: 100%; width: 60%; background-image: url('images/tf.jpg'); background-size: 100% 100%; text-align: center;">
+        <div style="height: 100%; width: 80%; background-image: url('images/tf.jpg'); background-size: 100% 100%; text-align: center;">
         <a href="examples.html" style="text-decoration: none;"><h1 style=" padding-top: 170px; padding-bottom: 70px; background-color: rgba(0, 0, 0, 0); color: rgb(250, 250, 250);">CONTINUE</h1></a>
     </footer>
   </body>
