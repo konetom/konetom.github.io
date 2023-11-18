@@ -231,7 +231,3 @@ def exponentiate(numbers, exponent):
     return results
 ```
 <br>
-
-## vitisSOM - An implementation of Python and Bash into an existing R project
-
-> <a href="https://github.com/konetom/vitisSOM">vitisSOM code</a>
