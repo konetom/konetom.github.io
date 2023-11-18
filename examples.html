@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <title>konetom's github page</title>
   </head>
-  <body style="max-width: max-content; margin: auto; width: 100%; background-image: url('images/wallpaper.jpg'); background-size: 100% 100%;">
+  <body style="max-width: max-content; margin: auto; width: 100%; background-image: url('images/wallpaper2.jpg'); background-size: 100% 100%;">
     <h1 id="working-with-biological-data">Working with Biological Data</h1>
-    <br>
+
     <h4 id="read-a-fasta-file-using-biopython-">A) Read a FASTA file using BioPython:</h4>
     <pre><code><span class="hljs-keyword">from</span> Bio import SeqIO
 
     <span class="hljs-keyword">for</span> <span class="hljs-built_in">record</span> <span class="hljs-keyword">in</span> SeqIO.parse(<span class="hljs-string">"example.fasta"</span>, <span class="hljs-string">"fasta"</span>):
         print(<span class="hljs-built_in">record</span>.<span class="hljs-built_in">id</span>)
         print(<span class="hljs-built_in">record</span>.seq)
-    </code></pre><p><br></p>
+    </code></pre>
+    <hr><br>
     <h4 id="count-the-frequency-of-each-base-in-a-dna-sequence-">B) Count the frequency of each base in a DNA sequence:</h4>
     <pre><code><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">count_bases</span><span class="hljs-params">(dna)</span>:</span>
         counts = {<span class="hljs-string">'A'</span>: <span class="hljs-number">0</span>, <span class="hljs-string">'C'</span>: <span class="hljs-number">0</span>, <span class="hljs-string">'G'</span>: <span class="hljs-number">0</span>, <span class="hljs-string">'T'</span>: <span class="hljs-number">0</span>}
@@ -23,14 +24,16 @@
 
     dna = <span class="hljs-string">"AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"</span>
     print(count_bases(dna))
-    </code></pre><p><br></p>
+    </code></pre>
+    <hr><br>
     <h4 id="count-gc-content-of-a-dna-sequence-">C) Count GC content of a DNA sequence:</h4>
     <pre><code>def calculate_gc_content(seq):
         <span class="hljs-keyword">return</span> (seq.count('G') + seq.count('C')) / len(seq)
 
     dna_seq = <span class="hljs-string">"GCTAGCTAGCTAGCTAGCTA"</span>
     print(calculate_gc_content(dna_seq))
-    </code></pre><p><br></p>
+    </code></pre>
+    <hr><br>
     <h4 id="count-the-hamming-distance-between-two-dna-sequences-">D) Count the Hamming distance between two DNA sequences:</h4>
     <pre><code><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">hamming_distance</span><span class="hljs-params">(seq1, seq2)</span>:</span>
         <span class="hljs-keyword">return</span> sum(base1 != base2 <span class="hljs-keyword">for</span> base1, base2 <span class="hljs-keyword">in</span> zip(seq1, seq2))
@@ -38,7 +41,8 @@
     dna1 = <span class="hljs-string">"GAGCCTACTAACGGGAT"</span>
     dna2 = <span class="hljs-string">"CATCGTAATGACGGCCT"</span>
     print(hamming_distance(seq1, seq2))
-    </code></pre><p><br></p>
+    </code></pre>
+    <hr><br>
     <h4 id="transcribe-and-translate-dna-in-silico-">E) Transcribe and translate DNA <em>in silico</em></h4>
     <pre><code>from Bio.Seq import Seq
 
@@ -52,7 +56,8 @@
     <span class="hljs-comment"># Translate the mRNA sequence to a protein sequence</span>
     protein_seq = mRNA_seq.translate()
     <span class="hljs-keyword">print</span>(<span class="hljs-string">"Protein sequence:"</span>, protein_seq)
-    </code></pre><p><br></p>
+    </code></pre>
+    <hr><br>
     <h4 id="fetch-gene-info-from-ncbi-database-">F) Fetch gene info from NCBI database:</h4>
     <pre><code><span class="hljs-keyword">from</span> Bio import Entrez
     <span class="hljs-keyword">from</span> Bio import SeqIO
@@ -63,7 +68,8 @@
     <span class="hljs-built_in">record</span> = handle.<span class="hljs-built_in">read</span>()
     handle.close()
     print(<span class="hljs-built_in">record</span>)
-    </code></pre><p><br></p>
+    </code></pre>
+    <hr><br>
     <h4 id="fetch-dna-sequence-from-ncbi-database-">G) Fetch DNA sequence from NCBI database:</h4>
     <pre><code><span class="hljs-keyword">from</span> Bio import Entrez, SeqIO
 
@@ -78,7 +84,7 @@
     </code></pre>
     <br>
     <footer style="text-align: center;">
-        <h1><a href="index.html" style="text-decoration: none; color: rgb(0, 0, 0); background-color: rgba(0, 120, 70, 0.5); padding: 10px;">RETURN</a></h1>
+        <h1><a href="index.html" style="text-decoration: none; color: rgb(0, 0, 0); background-color: rgba(0, 120, 70, 0.2); padding: 10px;">RETURN</a></h1>
   </body>
 </html>
 
