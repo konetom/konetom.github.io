@@ -1,5 +1,15 @@
 import streamlit as st
 import requests
+import re
+
+# --- Function to clean HTML tags from ORCID text ---
+def clean_html(text):
+    if not text:
+        return ""
+    # Remove any HTML/XML tags
+    text = re.sub(r"<[^>]+>", "", text)
+    # Remove weird artifacts or excessive whitespace
+    return text.strip()
 
 # --- Page config ---
 st.set_page_config(layout="centered")
@@ -39,69 +49,69 @@ st.markdown(
         font-size: 12px;
         color: #444;
         margin-top: 6px;
+        white-space: pre-wrap;
     }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
-# --- ORCID ID ---
+# --- ORCID settings ---
 orcid_id = "0000-0003-2311-6092"
-orcid_api_works = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
-orcid_api_work_details = f"https://pub.orcid.org/v3.0/{orcid_id}/work/"
-
+api_works = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
+api_work_detail = f"https://pub.orcid.org/v3.0/{orcid_id}/work/"
 headers = {"Accept": "application/json"}
 
 # --- Fetch works ---
 try:
-    resp = requests.get(orcid_api_works, headers=headers)
+    resp = requests.get(api_works, headers=headers)
     resp.raise_for_status()
     data = resp.json()
     works = data.get("group", [])
 
     if works:
-        for work_group in works:
-            work_summary = work_group.get("work-summary", [])[0]
-            put_code = work_summary.get("put-code")
+        for group in works:
+            summary = group.get("work-summary", [])[0]
+            put_code = summary.get("put-code")
 
-            title = work_summary.get("title", {}).get("title", {}).get("value", "No title")
-            journal = work_summary.get("journal-title", {}).get("value", "")
-            year = work_summary.get("publication-date", {}).get("year", {}).get("value", "")
+            title = summary.get("title", {}).get("title", {}).get("value", "No title")
+            journal = summary.get("journal-title", {}).get("value", "")
+            year = summary.get("publication-date", {}).get("year", {}).get("value", "")
+            url = summary.get("url", {}).get("value", f"https://orcid.org/{orcid_id}")
 
-            # URL fallback
-            url = work_summary.get("url", {}).get("value", f"https://orcid.org/{orcid_id}")
-
-            # --- Fetch full work description ---
+            # Fetch full work description
             description = ""
             if put_code:
-                detail_url = orcid_api_work_details + str(put_code)
-                r_detail = requests.get(detail_url, headers=headers)
-                if r_detail.status_code == 200:
-                    detail_json = r_detail.json()
-                    description = detail_json.get("short-description", "") or \
-                                  detail_json.get("work-description", "")
+                detail_url = api_work_detail + str(put_code)
+                d = requests.get(detail_url, headers=headers)
+                if d.status_code == 200:
+                    j = d.json()
+                    description = (
+                        j.get("short-description", "") 
+                        or j.get("work-description", "") 
+                    )
 
-            # --- Render card (1 column only) ---
+            # --- CLEAN DESCRIPTION SAFELY ---
+            description = clean_html(description)
+            if len(description) > 500:
+                description = description[:500] + "..."
+
+            # --- CARD RENDER ---
             st.markdown(
                 f"""
                 <div class="paper-card">
                     <div class="paper-title">
                         <a href="{url}" target="_blank">{title}</a>
                     </div>
-                    <div class="paper-meta">
-                        {journal}<br>
-                        {year}
-                    </div>
-                    <div class="paper-summary">
-                        {description[:500]}{'...' if len(description) > 500 else ''}
-                    </div>
+                    <div class="paper-meta">{journal}<br>{year}</div>
+                    <div class="paper-summary">{description}</div>
                 </div>
                 """,
                 unsafe_allow_html=True
             )
 
     else:
-        st.write("No works found on ORCID.")
+        st.write("No works found.")
 
-except requests.exceptions.RequestException as e:
-    st.error(f"Error fetching data from ORCID: {e}")
+except Exception as e:
+    st.error(f"Error fetching ORCID data: {e}")
