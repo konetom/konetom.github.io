@@ -1,30 +1,49 @@
 import streamlit as st
+import requests
 import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 st.set_page_config(layout="centered")
-# st.title("OS Map Viewer")
+st.title("My Profile Webpage")
+st.markdown("<h4 style='font-size: 24px;'>Publications</h4>", unsafe_allow_html=True)
 
-cpal = pd.read_csv("r_colors.txt", header=None)[0].tolist()
-data = pd.read_csv("data.csv")
-dim = int(np.sqrt(data.shape[1] - 1))
+orcid_id = "0000-0003-2311-6092"
+orcid_api_url = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
 
-st.markdown("<h4 style='font-size: 24px;'>Select Survival Percentage Range</h4>", unsafe_allow_html=True)
-selected_range = st.slider("", 1, 100, (1, 50), )
-sub_df = data[data["pct"].between(*selected_range)].iloc[:, 1:]
-if sub_df.empty:
-    st.warning(f"No data found between {selected_range[0]}% and {selected_range[1]}%.")
-else:
-    meta_mean = sub_df.mean()
-    meta_map = meta_mean.values.reshape(dim, dim)
+headers = {
+    "Accept": "application/json"
+}
 
-    sns.set_context("paper", font_scale=1)
-    sns.set_style("white")
-    fig, ax = plt.subplots(figsize=(4, 4))
-    h = sns.heatmap(meta_map, cmap=cpal, cbar=False, ax=ax)
-    h.invert_yaxis()
-    h.axis("off")
-    st.subheader(f"Heatmap for Survival Range: {selected_range[0]}% – {selected_range[1]}%")
-    st.pyplot(fig)
+try:
+    response = requests.get(orcid_api_url, headers=headers)
+    response.raise_for_status()
+    data = response.json()
+    
+    works = data.get("group", [])
+    
+    if works:
+        # Prepare data for table
+        papers = []
+        for work_group in works:
+            work_summary = work_group.get("work-summary", [])[0]
+            title = work_summary.get("title", {}).get("title", {}).get("value", "No title")
+            journal = work_summary.get("journal-title", {}).get("value", "")
+            year = work_summary.get("publication-date", {}).get("year", {}).get("value", "")
+            url = work_summary.get("url", {}).get("value", f"https://orcid.org/{orcid_id}")
+            
+            papers.append({
+                "Title": f"[{title}]({url})",
+                "Journal/Conference": journal,
+                "Year": year
+            })
+        
+        # Convert to DataFrame
+        df = pd.DataFrame(papers)
+        
+        # Display with Streamlit (allow HTML links)
+        st.markdown(df.to_html(escape=False, index=False), unsafe_allow_html=True)
+    
+    else:
+        st.write("No works found on ORCID.")
+
+except requests.exceptions.RequestException as e:
+    st.error(f"Error fetching data from ORCID: {e}")
